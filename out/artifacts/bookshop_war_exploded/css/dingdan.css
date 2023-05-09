@@ -1,0 +1,65 @@
+a{
+	color: white;
+	text-decoration:none;
+}
+a:hover{
+	color: red;
+}
+.a{
+	width: 100%;
+	height: 3rem;
+	background-color:whitesmoke;
+	font-size: 1.25rem;
+	font-size: 1.875rem;
+	text-align: center;
+	
+}
+.b{
+	width: 15%;
+	height: 50rem;
+
+	background-color: #0062CC;
+	position: fixed;
+}
+.c{
+	width: 80%;
+	height: 1.5rem;
+	margin: relative;
+	padding-top: 1rem;
+	margin:  0 auto;
+	background-color: #0062CC;
+	padding-left: 0.3125rem;
+	font-size: 1.6rem;
+	color: whitesmoke;
+	margin-top: 1.6rem;
+	}
+.d{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 1.7rem;
+	 border-bottom: 1px solid 	#D3D3D3;
+}
+.e{
+	width: 85%;
+	height: 5.625rem;
+	float: right;
+	background-color: white;
+}
+table{border:1px solid lightgrey;border-collapse:collapse;}
+#sear{width:30%;height:100%;margin-left:35%;margin-top:2%;}
+#searchtxt{width:60%;height:35px;}
+#sousuo{width:20%;height:35px;cursor: pointer;}
+.f{
+	width: 85%;
+	height: 44rem;
+	float: right;
+	margin-top: 0.625rem;
+	background-color:  white;
+	
+}
+.delete{
+	height: 1.875rem;
+	width: 3.125rem;
+	cursor: pointer;
+	
+}

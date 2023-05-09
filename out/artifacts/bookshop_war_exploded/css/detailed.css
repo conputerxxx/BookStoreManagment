@@ -1,0 +1,38 @@
+#top{height:100px;width:100%;background:white;border-bottom:2px solid #B22222	}
+#left{height:1000px;width:15%;float:left;}
+#main{height:1000px;width:85%;float:left;}
+#logo{width:9%;height:85%;margin-left:230px;margin-top:5px;float:left;background:lightgrey}
+#contend{width:8%;float:left;margin-top:25px;background:white;margin-left:15px;}
+#search{width:30%;height:65%;float:left;margin-top:5px;margin-left:20px;}
+#searchtxt{float:left;width:65%;height:35px;margin-top:10px;padding-left:13px;border:2px solid #c5464a;background:transparent;}
+#sousuo{height:40px;margin-top:10px;float:left;background: #c5464a;border-radius: 0 10px 10px 0;width: 60px;color:white;}
+#classify{width:8%;height:95%;margin-left:20%;background:#B22222;padding-left:25px;padding-top:3px;color:white;}
+#first{height:75%;}
+#second{height:25%;}
+#book{height:30%;width:100%;}
+#picture{width:20%;height:95%;float:left;padding-left:3%;padding-top:1%;}
+#instc{width:60%;height:100%;float:left;}
+#title{padding-left:10px;margin-top:10px;font-family:STHeiti}
+#author{padding-top:5px;padding-left:5px;color:#4169E1;font-size:8px;}
+#money{font-size:30px;border-radius:5px;font-family:Microsoft JhengHei;padding:10px;margin-left:10px;margin-top:10px;height:15%;width:60%;background:#D3D3D3;}
+.a{padding-left:10px;font-size:10px;padding-top:5px;}
+#enter{margin-left:20px;float:left;width:20%;height:35px;background:#B22222;color:white;border-radius:5px;margin-top:5px;}
+#buy{float:left;width:20%;height:35px;margin-left:40px;background:#32CD32;color:white;border-radius:5px ;margin-top:5px;}
+#last{height:70%;}
+#manchandise{height:30px;border-bottom:2px solid #B22222;width:75%}
+#word{float:left;width:8%;height:85%;background:#B22222;color:white;padding-left:1.5%;padding-top:5px;}
+#editor{height:30%;}
+.edit{padding:15px;width:72.6%;font-family:FangSong;font-size:15px;color:#B22222;border-bottom:5px double black}
+.contende{width:65%;height:75%;padding-top:8px;}
+#con{height:30%;}
+#auth{height:22%;}
+#none{height:60px;clear:both;}
+#none1{height:20px;clear:both;}
+#bottomend{text-align:center;}
+#bottomend a{padding: 0 10px;}
+a{text-decoration: none;color: #666666;font-size:10px}
+a:hover{color:#e4393c;}
+#topper{width: 100%;height: 40px;background-color:#DCDCDC;}
+.a1{width: 4%;height: 25px;margin-left: 60%;float: left;padding-top: 0.8rem;background-color:#DCDCDC;font-size: 15px;}
+.a2{width: 6%;height: 25px;padding-top: 0.8rem;float: left;font-size: 15px;background-color:#DCDCDC;}
+#topper a{text-decoration: none;color:black;font-size:15px;}

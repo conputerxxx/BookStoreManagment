@@ -1,0 +1,102 @@
+a{
+	color: whitesmoke;
+	text-decoration:none;
+}
+a:hover{
+	color: red;
+}
+.a{
+	width: 100%;
+	height: 3rem;
+	background-color:whitesmoke;
+	font-size: 1.25rem;
+	font-size: 1.875rem;
+	
+	text-align: center;
+}
+.b{
+	width: 15%;
+	height: 50rem;
+	float: left;
+	background-color: #0062CC;
+}
+.c{
+	width: 80%;
+	height: 1.5rem;
+	margin: relative;
+	padding-top: 1rem;
+	margin:  0 auto;
+	background-color: #0062CC;
+	padding-left: 0.3125rem;
+	font-size: 1.6rem;
+	color: whitesmoke;
+	margin-top: 1.6rem;
+	}
+.d{
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 1.7rem;
+	 border-bottom: 1px solid 	#D3D3D3;
+}
+.e{
+	width: 50%;
+	height: 36rem;
+	float: left;
+	margin-left: 17%;
+	background-color: whitesmoke;
+	margin-top: 3.75rem;
+}
+.f{
+	width: 95%;
+	height: 6%;
+	font-size: 1.25rem;
+	background-color: #0062CC;
+	font-size: 1.25rem;
+	padding-left: 5%;
+	padding-top: 1%;
+	color: white;
+}
+.input-group{
+	width: 92%;
+	height: 2.5rem;
+	margin: 0 auto;
+	background-color: lightgray;
+	border: #000000 0.0625rem solid;
+	margin-top: 0.3125rem;
+}
+.ide{
+	width: 11%;
+	padding-left: 0.6rem;
+	height:2rem;
+	background-color: lightgray;
+	font-size: 1.4rem;
+	margin-top: 0.3125rem;
+	
+}
+.sousuo{
+	width: 85%;
+	height: 2rem;
+	
+}
+.sousuo2{
+	width: 80%;
+	height: 2rem;
+	
+}.sousuo3{
+	width:78%;
+	height: 2rem;
+	
+}
+#yes{
+	margin-left: 2.1rem;
+	width: 4rem;
+	height: 2rem;
+	font-size:0.9375rem;
+	background-color: green;
+	cursor: pointer;
+	color: white;
+	margin-top: 1rem;
+}
+#yes:hover{
+	background-color: darkgreen;
+}
