@@ -1,12 +1,6 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: cc
-  Date: 2023/4/26
-  Time: 11:21
-  To change this template use File | Settings | File Templates.
---%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<!doctype html>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+         pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -53,55 +47,59 @@
 </head>
 
 <body>
-<div class="top">
-  <div class="a1"><a href="./login.html">登录</a></div>
-  <div class="a2"><a href="./register.html">注册</a></div>
-  <div class="a2"><a href="./shopping car.html">购物车</a></div>
-  <div class="a2"><a href="./queren.html">订单</a></div>
-  <div class="a2"><a href="./address.html">我的</a></div>
+<form action="indexServlet" method="post">
+  <div class="top">
+    <div class="a1"><input name="log" type="submit" value="登录"></div>
+    <div class="a2"><input name="reg" type="submit" value="注册"></div>
+    <div class="a2"><input name="shopcar" type="submit" value="购物车"></div>
+    <div class="a2"><input name="order" type="submit" value="订单"></div>
+    <div class="a2"><input name="mine" type="submit" value="我的"></div>
 
-</div>
+  </div>
+</form>
 <div class="b">
   <div class="b1"><img src="./img/00.jpeg" height="100%" width="100%"/></div>
   <div id="search">
-    <form action="" method="post">
+    <form action="indexServlet" method="post">
       <input  name="keyword" type="text" id="searchtxt">
       <button type="submit" id="sousuo">搜索</button>
     </form>
   </div>
 </div>
-<div class="c"><h2>电子书分类</h2></div>
-<div class="d">
-  <div class="d1">
-    <div class="d11">文学</div>
-    <div class="d12"><a href="./index.html">影视原著</a></div>
-    <div class="d12"><a href="./index.html">文学小说</a></div>
+<form action="indexServlet" method="post">
+  <div class="c"><h2>电子书分类</h2></div>
+  <div class="d">
+    <div class="d1">
+      <div class="d11">文学</div>
+      <div class="d12"><input name="cla1" type="submit" value="影视原著"></div>
+      <div class="d12"><input name="cla1" type="submit" value="文学小说"></div>
+    </div>
+    <div class="d2"></div>
+    <div class="d1">
+      <div class="d11">经管励志</div>
+      <div class="d12"><input name="cla1" type="submit" value="金融投资"></div>
+      <div class="d12"><input name="cla1" type="submit" value="市场营销"></div>
+    </div>
+    <div class="d2"></div>
+    <div class="d1">
+      <div class="d11">人文社科</div>
+      <div class="d12"><input name="cla1" type="submit" value="历史考古"></div>
+      <div class="d12"><input name="cla1" type="submit" value="政治军事"></div>
+    </div>
+    <div class="d2"></div>
+    <div class="d1">
+      <div class="d11">生活休闲</div>
+      <div class="d12"><input name="cla1" type="submit" value="两性情感"></div>
+      <div class="d12"><input name="cla1" type="submit" value="健康养生"></div>
+    </div>
+    <div class="d2"></div>
+    <div class="d1">
+      <div class="d11">学习教育</div>
+      <div class="d12"><input name="cla1" type="submit" value="外语名著"></div>
+      <div class="d12"><input name="cla1" type="submit" value="教辅用书"></div>
+    </div>
   </div>
-  <div class="d2"></div>
-  <div class="d1">
-    <div class="d11">经管励志</div>
-    <div class="d12"><a href="./index.html">金融投资</a></div>
-    <div class="d12"><a href="./index.html">市场营销</a></div>
-  </div>
-  <div class="d2"></div>
-  <div class="d1">
-    <div class="d11">人文社科</div>
-    <div class="d12"><a href="./index.html">历史考古</a></div>
-    <div class="d12"><a href="./index.html">政治军事</a></div>
-  </div>
-  <div class="d2"></div>
-  <div class="d1">
-    <div class="d11">生活休闲</div>
-    <div class="d12"><a href="./index.html">两性情感</a></div>
-    <div class="d12"><a href="./index.html">健康养生</a></div>
-  </div>
-  <div class="d2"></div>
-  <div class="d1">
-    <div class="d11">学习教育</div>
-    <div class="d12"><a href="./index.html">外语学习</a></div>
-    <div class="d12"><a href="./index.html">教辅用书</a></div>
-  </div>
-</div>
+</form>
 <div class="container">
   <div id="banner">
     <div id="banner_bg">
@@ -158,10 +156,12 @@
   </div>
   <div class="h2">今宵欢乐多</div>
 </a></div>
-<div class="j" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
+<form action="indexServlet" method="post">
+  <div class="j" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+</form>
 <div class="l">
   <div class="l1">销售总榜</div>
   <div class="l2"><a href="./detailedpage.html">
@@ -237,9 +237,11 @@
   </div>
   <div class="h2">表演课：迈斯纳方法</div>
 </a></div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
+<form action="indexServlet" method="post">
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+</form>
 <div class="i"><a href="./detailedpage.html">
   <div class="h1">
     <img src="./img/13.png" height="100%" width="100%"/>
@@ -258,9 +260,11 @@
   </div>
   <div class="h2">全世界有你就好</div>
 </a></div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
+<form action="indexServlet" method="post">
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+</form>
 <div class="m"><h1>重磅好书</h1></div>
 <div class="i"><a href="./detailedpage.html">
   <div class="h1">
@@ -280,9 +284,11 @@
   </div>
   <div class="h2">长安的荔枝</div>
 </a></div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
+<form action="indexServlet" method="post">
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+</form>
 <div class="i"><a href="./detailedpage.html">
   <div class="h1">
     <img src="./img/19.png" height="100%" width="100%"/>
@@ -301,9 +307,11 @@
   </div>
   <div class="h2">笔杆子是怎样炼成的</div>
 </a></div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
+<form action="indexServlet" method="post">
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+</form>
 <div class="m"><h1>一周好书榜</h1></div>
 <div class="n">文学小说</div>
 <div class="n">经济管理</div>
@@ -351,10 +359,12 @@
   </div>
   <div class="h2">无法落地战略一文不值</div>
 </a></div>
-<div class="j" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
+<form action="indexServlet" method="post">
+  <div class="j" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+</form>
 <div class="q"><h1>好书推荐</h1></div>
 
 
@@ -382,10 +392,12 @@
   </div>
   <div class="h2">人间值一笑</div>
 </a></div>
-<div class="j" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
+<form action="indexServlet" method="post">
+  <div class="j" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+</form>
 <div class="m1"><h1>作者专区</h1></div>
 <div class="n">余华</div>
 <div class="n">金庸</div>
@@ -413,10 +425,12 @@
   </div>
   <div class="h2">射雕英雄传</div>
 </a></div>
-<div class="j" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
-<div class="k" onclick="window.location.href= './detailedpage.html';return false">立即购买</div>
+<form action="indexServlet" method="post">
+  <div class="j" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+  <div class="k" ><input name="buy1" type="submit" value="立即购买"></div>
+</form>
 <div id="bottomend">
   <p>
     <a href="#">关于我们 </a>|
@@ -430,6 +444,4 @@
 
 
 </body>
-
 </html>
-
